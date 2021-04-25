@@ -1,0 +1,31 @@
+header{
+ background:linear-gradient(to right,white,whitesmoke,blue);
+ padding:9px;
+}
+a{
+	font-size:25px;
+	text-decoration:none;
+	margin-left:10px;
+}
+a:hover{
+	color:red;
+}
+body{
+	background-color:blue;
+	font-family:cursive;
+	color:white;
+	margin:0px;
+}
+input:valid{
+	background:green;
+}
+input:invalid{
+	background:red;
+}
+input[type="submit"]{
+	background:linear-gradient(to right,purple,red);
+	color:white;
+	font-family:cursive;
+	padding:11px;
+	border:none;
+}
